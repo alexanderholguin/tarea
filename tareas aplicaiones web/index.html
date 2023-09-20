@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>formulario Cliente</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <h1> Registro Del Cliente </h1>
+  </div>
+  <main>
+    <form action="">
+      <div>
+        <label for="">nombre completo</label>
+        <br>
+        <input id="name" type="text">
+      </div>
+      <div>
+        <label for="">dirrecion</label>
+        <br>
+        <input id="address" type="text">
+      </div>
+      <div>
+        <label for="">Fecha de nacimiento</label>
+        <br>
+        <input id="date" type="date">
+      </div>
+      <div>
+        <label for="">Telefono</label>
+        <br>
+        <input id="address" type="text">
+      </div>
+      <div>
+        <label for="gender">Género</label>
+        <br>
+        <select id="gender">
+          <option value="">Seleccionar género</option>
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+          <option value="otro">Otro</option>
+        </select>
+      </div>
+      <div>
+        <label for="">Ocupacion</label>
+        <br>
+        <input id="address" type="text">
+      </div>
+      <div>
+        <label for="">correo electronico</label>
+        <br>
+        <input id="Email" type="email">
+      </div>
+      <div>
+        <label for="">contraseña</label>
+        <br>
+        <input id="password" type="password">
+      </div>
+      <div>
+        <label for="">Repetir contraseña</label>
+        <br>
+        <input id="repeatPassword" type="password">
+      </div>
+      <div class="button-container">
+        <button onclick="enviarForm()">Enviar Formulario</button>
+      </div>
+    </form>
+    <div class="izquierda" id="root">
+    </div>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>

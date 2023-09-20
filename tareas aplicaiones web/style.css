@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(41, 37, 37);
+}
+
+
+
+body {
+  background-color: rgb(130, 201, 231);
+}
+
+
+
+input {
+  background-color:rgb(233, 238, 241);;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: 2px solid rgb(240, 232, 232);
+  border-radius: 20px;
+  outline: none;
+  width: 300px;
+}
+h1{
+  text-align:center;
+  padding: 10px 15px ;
+}
+
+main {
+  padding-top: 50px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+  
+
+
+form > div {
+  margin-top: 20px;
+}
+input:focus {
+  outline: none;
+  border: 2px solid rgb(115, 236, 115);
+}
+
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form select {
+  background-color: rgb(236, 240, 243);;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: 2px solid rgb(240, 232, 232);
+  border-radius: 20px;
+  outline: none;
+  width: 300px; 
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  margin: 10px 15px;
+  background-color: white;
+  color: rgb(8, 13, 14);
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  font-size: larger;
+  border-radius: 50px;
+
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid rgb(234, 226, 226);
+  color: rgb(232, 222, 222)  ;
+}
+
+.izquierda {
+  padding: 20px 50px;
+
+}
+
+.result-container {
+  margin-bottom: 10px;
+}
